@@ -50,15 +50,15 @@
 
 4. On ne peut pas exécuter le fichier, en utilisateur ou avec sudo, car il ne s'agit pas d'un fichier exécutable
 
-5. 
+5. `chmod u-r ~/test; ls; cat fichier; chmod u+r ~/test` le droit de lecture dans un dossier permet de voir les fichiers contenus dedans, mais pas d'y acceder (r permet de le faire)
 
-6. 
+6. Il est possible de modifier le fichier avec les droits d'écriture dessus, mais ils ne sont pas nécessaires pour le supprimer
 
-7. 
+7. Les droits d'exécution sur un répertoire permettent d'y acceder et d'y rajouter ou supprimer des fichiers
 
-8. 
+8. Les droits s'appliquent sur tous les répertoires, même le répertoire courant, au moment où ils sont changés
 
-9. 
+9. `chmod g=r fichier` 
 
 10. 
 
